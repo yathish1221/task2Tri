@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trigent - Softwares</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/trigenticon.png" type="'images/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light col justify-content-between"
+    >
+      <div
+        class="container-lg d-flex flex-1 justify-content-between align-items-center"
+      >
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="assets/trigetBrandName.png" alt="Brand Logo"
+        /></a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLinks"
+          aria-controls="navLinks"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-end" id="navLinks">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-warning" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+          </ul>
+          <button
+            class="btn btn-lg btn-warning px-4 text-light"
+            type="submit"
+            data-bs-toggle="modal"
+            data-bs-target="#modalContainer"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal  -->
+    <div class="modal" tabindex="-1" id="modalContainer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Your Queries</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Your Subject"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  placeholder="Your message"
+                  class="form-control textArea"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning text-light">
+              Send Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="Sec" id="home">
+      <h5 class="lh-base">
+        A design and development agency based in London. We create digital
+        products that make people's lives easier.
+      </h5>
+      <img
+        src="assets/Rectangle 1.png"
+        alt="Hero image"
+        class="w-100 object-fit-cover mt-4"
+        height="300px"
+      />
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <p class="fw-semibold">Story</p>
+            <p>
+              Sed ut perspiciatis unde omnia che mulas verst VOLTAM Accusantium
+              doloremque lacicantum tatem annum doloremcua
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <p class="fw-semibold">Mission</p>
+            <p>
+              Sed ut perspiciatis unde omnia che mulas verst VOLTAM Accusantium
+              doloremque lacicantum tatem annum doloremcua
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <p class="fw-semibold">Value</p>
+            <p>
+              Sed ut perspiciatis unde omnia che mulas verst VOLTAM Accusantium
+              doloremque lacicantum tatem annum doloremcua
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="Sec" id="about">
+      <h1>What we do</h1>
+      <h4>
+        We design thoughtful digital experiences & beautiful brand aesthetics.
+      </h4>
+      <div class="container mt-4">
+        <div class="d-flex flex-wrap gap-3">
+          <ul class="list-unstyled flex-grow-1">
+            <h6>Market Research</h6>
+            <li>Websites</li>
+            <li>Mobile Application</li>
+            <li>Prototyping</li>
+            <li>Network Solutions</li>
+            <li>Databases</li>
+          </ul>
+          <ul class="list-unstyled flex-grow-1">
+            <h6>Market Research</h6>
+            <li>Web Design</li>
+            <li>Motion Productions</li>
+            <li>User Experience</li>
+            <li>Illustrator</li>
+          </ul>
+          <ul class="list-unstyled flex-grow-1">
+            <h6>Market Research</h6>
+            <li>Websites</li>
+            <li>Mobile Application</li>
+            <li>Prototyping</li>
+            <li>Network Solutions</li>
+            <li>Databases</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="Sec3">
+        We design thoughtful digital experiences & beautiful brand aesthetics.
+      </h3>
+      <p>
+        Would you like us to work on your brand identity? We would be happy to
+        help.
+      </p>
+      <button type="submit" class="btn btn-lg btn-dark rounded-0">
+        Work with us
+      </button>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footerSec dark text-light footer-h position-relative">
+      <div class="container-lg">
+        <div class="row align-items-start pt-5 gap-4 gap-md-3">
+          <div class="col-10 col-md-6">
+            <h6 class="col-10 text-wrap col-md-5 lh-base">
+              Don't be shy, get in touch with us and create the world againt
+            </h6>
+            <div class="d-flex gap-3 mt-3 mt-md-5">
+              <span class="fw-medium"
+                ><a href="#" class="text-decoration-none text-light"
+                  >Fb</a
+                ></span
+              >
+              <span class="fw-medium"
+                ><a href="#" class="text-decoration-none text-light"
+                  >Tw</a
+                ></span
+              >
+              <span class="fw-medium"
+                ><a href="#" class="text-decoration-none text-light"
+                  >In</a
+                ></span
+              >
+              <span class="fw-medium"
+                ><a href="#" class="text-decoration-none text-light"
+                  >Be</a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="col-10 col-md-3 d-flex row gap-3 gap-md-5">
+            <div>
+              <div class="text-warning fw-bold">PHONE</div>
+              <div>+80 (0)5 12 34 95 89</div>
+            </div>
+            <div>
+              <div class="text-warning fw-bold">ADDRESS</div>
+              <div>33 rue Burdeau 69089 Paris France</div>
+            </div>
+          </div>
+          <div class="col-10 col-md-3 d-flex row gap-3 gap-md-5">
+            <div>
+              <div class="text-warning fw-bold">ENQUIRIES</div>
+              <div>info@oleez.site</div>
+            </div>
+            <div>
+              <div class="text-warning fw-bold">WORKING HOURS</div>
+              <div class="text-wrap">
+                Weekdays: 09.00-18:00<br />Weekends: 11:00 - 17:00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-md-end copy">
+          <p>All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
