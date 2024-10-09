@@ -1,0 +1,70 @@
+:root{
+    --primary-color:#F7B500;
+    --dark-bg:#000;
+}
+
+.yellow{
+    color:var(--primary-color);
+}
+
+.dark{
+    background-color: var(--dark-bg);
+}
+
+.nav-item:hover{
+    color:var(--primary-color);
+}
+
+.logo{
+    height: 1.5rem;
+}
+
+.textArea{
+    resize: none;
+}
+
+.Sec{
+    width: 75% !important;
+    margin: 0 auto;
+    margin-top: 6.25rem;
+}
+
+.footerSec,.Sec3{
+    margin-top: 6.25rem;
+}
+
+
+
+.footer-h{
+    min-width: 50vh !important;
+}
+
+.copy{
+    margin-right: 2rem;
+    margin-top:5rem;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width:400px) {
+    .btn{
+        width: 100%;
+    }
+    .logo{
+        height: 1rem;
+    }
+    .copy{
+        text-align: center !important;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    
+    .footerSec,.Sec3,.Sec{
+        margin-top: 4rem;
+    }
+}
+
+
+
+
